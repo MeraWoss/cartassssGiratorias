@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>La web de Lucía</title>
+    <style>
+    body{
+	    background-color: green;
+    }
+
+
+/*Empieza 5 treboles*/
+    #cinco_corazones{
+	    position:  relative;
+	    left:  150px;
+	    top:  50px;
+        transform:  rotate(-10deg);
+    }
+    
+    
+    .numero{
+	    font-size: 25px;
+		color: red;
+    }
+    .simbolo{
+	    font-size: 25px;
+		color: red;
+    }
+    .palo{
+	font-size: 35px;
+    }
+  
+    #numeracion5corazones_invertido{
+	    transform:  rotate(180deg);
+	    position:  absolute;
+	    bottom:  0px;
+	    right:  0px;
+		color: red;
+    }
+    #cinco_corazones>#palo1{
+	    position:  absolute;
+	    top:  80px;
+	    left:  50px;
+		color: red;
+    }
+    #cinco_corazones>#palo2{
+	
+        position:  absolute;
+        top:  80px;
+        left:  120px;
+		color: red;
+    }
+    #cinco_corazones>#palo3{
+	    position:  absolute;
+	    top:  120px;
+	    left:  85px;
+		color: red;
+    }
+    #cinco_corazones>#palo4{
+	    position:  absolute;
+	    top:  160px;
+	    left:  50px;
+		color: red;
+    }
+    #cinco_corazones>#palo5{
+	    position:  absolute;
+	    top:  160px;
+	    left:  120px;
+		color: red;
+    }
+
+
+
+/* Empieza 2 treboles */
+	.dosTreboles {
+		position: absolute;
+        height:  300px;
+	    width:  200px;
+	    background: white;
+	    border-radius: 5px;
+		bottom: 400px;
+		left: 370px;
+	    transform:  rotate(-12deg);
+	}
+
+	.numeroArribaIzquierdaDerecha{
+		position: absolute;
+		font-size: 50px;
+		left: 60px;
+		bottom: 240px;
+	}
+
+	.numeroAbajoIzquierdaIzquierda{
+		position: absolute;
+		font-size: 50px;
+		right: 75px;
+		top: 238px;
+		transform: rotate(180deg);
+	}
+
+	.numeroAbajoDerecha{
+		position: absolute;
+		top: 260px;
+		left: 180px;
+		font-size: 25px;
+		transform: rotate(180deg);
+
+	}
+
+	.SignoAbajoDerecha{
+		position: absolute;
+		top: 234px;
+		left: 176px;
+		font-size: 25px;
+		transform: rotate(180deg);
+	}
+/* Fin */
+
+
+/* Empieza 4 treboles */
+	.cuatroTreboles {
+		position: absolute;
+        height:  300px;
+	    width:  200px;
+	    background: white;
+	    border-radius: 5px;
+		bottom: 400px;
+		left: 580px;
+		transform: rotate(-12deg);
+	}
+
+	.PrimerPaloDosTrecol{
+		font-size: 40px;
+		position: absolute;
+		top: 60px;
+		left: 40px;
+	}
+	.PrimerPaloDosTrecol{
+		font-size: 40px;
+		position: absolute;
+		top: 60px;
+		left: 130px;
+	}
+	.SegundoPaloDosTrecol{
+		font-size: 40px;
+		position: absolute;
+		top: 60px;
+		left: 40px;
+	}
+	.TerceroPaloDosTrecol{
+		font-size: 40px;
+		position: absolute;
+		top: 178px;
+		left: 40px;
+	}
+	.CuartoPaloDosTrecol{
+		font-size: 40px;
+		position: absolute;
+		top: 180px;
+		left: 130px;
+	}
+
+
+
+
+
+/* Empieza 3 picas */
+	.tresPicas{
+		position: absolute;
+        height:  300px;
+	    width:  200px;
+	    background: white;
+	    border-radius: 5px;
+		bottom: 400px;
+		left: 788px;
+		transform: rotate(-12deg)
+	}
+
+	.PrimerPaloTresPicas{
+		position: absolute;
+		font-size: 40px;
+		left: 80px;
+	}
+	.SegundoPaloTresPicas{
+		position: absolute;
+		font-size: 40px;
+		left: 80px;
+		top: 110px;
+	}
+	.TerceroPaloTresPicas{
+		position: absolute;
+		font-size: 40px;
+		left: 80px;
+		top: 160px;
+
+	}
+
+
+/* Empieza 7 treboles */
+	.sieteTreboles{
+		position: absolute;
+        height:  300px;
+	    width:  200px;
+	    background: white;
+	    border-radius: 5px;
+		bottom: 400px;
+		left: 997px;
+		transform: rotate(-12deg)
+	}
+
+	.PrimerPaloSieteTreboles {
+		position: absolute;
+		font-size: 40px;
+		left: 80px
+	}
+
+
+
+
+.carta{
+	    height:  300px;
+	    width:  200px;
+	    background: white;
+	    border-radius: 5px;
+    }
+
+	.numeroArribaIzquierda {
+		font-size: 25px;
+	}
+	.signoArribaIzquierda{
+		font-size: 25px;
+	}	
+
+	.numeroAbajoDerecha{
+		position: absolute;
+		top: 260px;
+		left: 180px;
+		font-size: 25px;
+		transform: rotate(180deg);
+
+	}
+
+	.SignoAbajoDerecha{
+		position: absolute;
+		top: 234px;
+		left: 176px;
+		font-size: 25px;
+		transform: rotate(180deg);
+	}
+
+    </style>
+</head>
+<body>
+	<div id="cinco_corazones" class="carta">
+		<div id="numeracion5corazones" class="numeracion">
+			<div class="numero">
+				5
+			</div>
+			<div class="simbolo">
+				&#9829
+			</div>
+			</div>
+				<div id="numeracion5corazones_invertido" class="numeracion">
+				<div class="numero">
+					5
+				</div>
+				<div class="simbolo">
+					&#9829
+				</div>
+			</div>
+			<div class="palo" id="palo1">
+					&#9829
+			</div>
+			<div class="palo" id="palo2">
+					&#9829
+			</div>
+			<div class="palo" id="palo3">
+					&#9829
+			</div>
+			<div class="palo" id="palo4">
+					&#9829
+			</div>
+			<div class="palo" id="palo5">
+					&#9829
+			</div>
+		</div>
+    </div>
+
+
+<!-- empieza 2 treboles -->
+	<div class="dosTreboles">
+		<div class="numeroArribaIzquierda">2</div>
+		<div class="signoArribaIzquierda">&#9827</div>
+		<div class="numeroArribaIzquierdaDerecha">&#9827</div>
+		<div class="numeroAbajoDerecha">2</div>
+		<div class="SignoAbajoDerecha">&#9827</div>
+		<div class="numeroAbajoIzquierdaIzquierda">&#9827</div>
+
+	</div>
+
+<!-- empieza 4 treboles -->
+	<div class="cuatroTreboles">
+		<div class="numeroArribaIzquierda">4</div>
+		<div class="signoArribaIzquierda">&#9827</div>
+
+		<div class="PalosCentroDosTrebol">
+			<div class="PrimerPaloDosTrecol">&#9827</div>
+			<div class="SegundoPaloDosTrecol">&#9827</div>
+			<div class="TerceroPaloDosTrecol">&#9827</div>
+			<div class="CuartoPaloDosTrecol">&#9827</div>
+		</div>
+
+		<div class="numeroAbajoDerecha">4</div>
+		<div class="SignoAbajoDerecha">&#9827</div>
+	</div>
+
+
+
+<!-- empieza 3 picas -->
+<div class="tresPicas">
+	<div class="numeroArribaIzquierda">3</div>
+	<div class="signoArribaIzquierda">&#9824</div>
+
+
+	<div class="PalosCentroTresPicas">
+		<div class="PrimerPaloTresPicas">&#9824</div>
+		<div class="SegundoPaloTresPicas">&#9824</div>
+		<div class="TerceroPaloTresPicas">&#9824</div>
+	</div>
+
+	<div class="numeroAbajoDerecha">3</div>
+	<div class="SignoAbajoDerecha">&#9824</div>
+</div>
+
+
+<!-- empieza 7 treboles -->
+<div class="sieteTreboles">
+	<div class="numeroArribaIzquierda">7</div>
+	<div class="signoArribaIzquierda">&#9827</div>
+
+	<div class="PalosCentroSieteTreboles">
+		<div class="PrimerPaloSieteTreboles">&#9827</div>
+		<div class="SegundoPaloSieteTreboles">&#9827</div>
+		<div class="TerceroPaloSieteTreboles">&#9827</div>
+		<div class="CuartoPaloSieteTreboles">&#9827</div>
+	</div>
+
+	<div class="numeroAbajoDerecha">7</div>
+	<div class="SignoAbajoDerecha">&#9827</div>
+</div>
+
+
+</body>
+
+</html>
